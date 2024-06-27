@@ -1,11 +1,12 @@
 #include <stdio.h>
 int main()
 {
-    int a[5], n, i, x;
+    int  n,  x;
     printf("enter n:");
     scanf("%d", &n);
 
-    for (i = 0; i < n; i++)
+int a[n];
+    for (int i = 0; i < n; i++)
     {
         printf("enter a[%d]:", i);
         scanf("%d", &a[i]);
@@ -13,14 +14,14 @@ int main()
     }
 
     printf("\n swaping value:");
-    for (i = 0; i < n; i++)
+    for (int i = 0; i < n; i++)
     {
         printf("\t%d ", a[i]);
         a[i] = a[i + 1];
     }
-
+    a[n-1]=x;
     printf("\n");
-    for (i = 0; i < n; i++)
+    for (int i = 0; i < n; i++)
     {
         a[4] = x;
         printf("%d ", a[i]);
