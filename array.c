@@ -10,6 +10,7 @@ int a[n];
     {
         printf("enter a[%d]:", i);
         scanf("%d", &a[i]);
+        
         x = a[0];
     }
 
