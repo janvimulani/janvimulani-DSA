@@ -37,29 +37,7 @@ void sorted(int arr[], int size)
 int search(int arr[], int high, int low, int mid, int find_element)
 {
     printf("\nenter the element which you want to find : ");
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
     
     scanf("%d", &find_element);
 

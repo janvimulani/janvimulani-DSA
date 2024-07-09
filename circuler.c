@@ -79,4 +79,3 @@ int main()
     insert_First(70);
     display();
 }
- 
