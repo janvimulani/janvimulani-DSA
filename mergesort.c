@@ -19,7 +19,7 @@ void merge(int a[], int l, int mid, int h)
         b[k++] = a[j++];
     for (i = l; i <= h; i++)
         a[i] = b[i];
-}
+};
 int mergesort(int a[], int l, int h)
 {
     int mid;
@@ -28,6 +28,7 @@ int mergesort(int a[], int l, int h)
         mid = (l + h) / 2;
         mergesort(a, l, mid);
         mergesort(a, mid + 1, h);
+
         merge(a, l, mid, h);
     }
 }
